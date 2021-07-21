@@ -11,7 +11,7 @@ class movie extends Model
 {
     use HasFactory;
 
-    public function kedais()
+    public function kedai()
     {
         return $this->belongsTo(Kedai::class);
     }
